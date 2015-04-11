@@ -41,7 +41,7 @@ git rm public/components/file1.php \
        public/components/file1.php 
 ```
 
-###I used `git rm -r`, how to undo this?
+###I used `git rm -r`, how to undo this? [(Source)](http://stackoverflow.com/questions/2125710/how-to-revert-a-git-rm-r)
 Just as you would do with a uncommited `git add`.
 ```
 git reset HEAD
