@@ -47,3 +47,18 @@ Just as you would do with a uncommited `git add`.
 git reset HEAD
 ```
 
+###Fiz alterações no meu repositório local, mas quero descartar tudo e voltar para como estava antes... [(Source)](http://stackoverflow.com/questions/1146973/how-do-i-revert-all-local-changes-in-git-managed-project-to-previous-state)
+Segue o comando para reverter as mudanças feitas para a cópia local
+```
+git checkout .
+```
+
+Se você quiser revertar as mudanças feitas para o índice (index, isto é, as mudanças que você adicionou com `git add`), faça isso:
+```
+git reset
+```
+
+Se você quiser reverter alguma mudança que você comitou (git commit) faça isso:
+```
+git revert ...
+```
